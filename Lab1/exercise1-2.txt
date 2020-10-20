@@ -1,0 +1,19 @@
+ 1. $ReturnValue = 2 == 3;
+ 2. $ReturnValue = “2” + “3”;
+ 3. $ReturnValue = 2 >= 3;
+ 4. $ReturnValue = 2 <= 3;
+ 5. $ReturnValue = 2 + 3;
+ 6. $ReturnValue = (2 >= 3) && (2 > 3);
+ 7. $ReturnValue = (2 >= 3) || (2 > 3);
+
+
+ // Answers
+
+
+ 1. false, returns nothing
+ 2. false, returns a 0, also throws warnings as they are numeric values entered as strings.
+ 3. false, returns nothing
+ 4. true, returns a 1
+ 5. true, returns a 5
+ 6. false, returns nothing
+ 7. false, returns nothing
